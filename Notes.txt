@@ -1,0 +1,27 @@
+Le meilleur moyen pour un site statique est d'utiliser l'architecture Jamstack via une plateforme d'hébergement cloud moderne connectée à GitHub (ou GitLab). C'est entièrement gratuit, ultra-rapide et automatisé.
+## 1. La pile technique recommandée
+
+* Stockage du code : GitHub
+* Hébergement & CDN : Vercel ou Netlify (les leaders)
+* Alternative open-source / minimaliste : GitHub Pages
+
+## 2. Le flux de travail (Workflow)
+
+* Étape 1 : Vous créez votre site localement (HTML/CSS/JS purs, ou via un générateur comme Vite, Astro, ou Next.js).
+* Étape 2 : Vous poussez votre code sur un dépôt (repository) GitHub privé ou public.
+* Étape 3 : Vous connectez Vercel ou Netlify à ce dépôt en 3 clics.
+* Étape 4 : Le site est en ligne. À chaque git push, la plateforme met à jour le site automatiquement en quelques secondes.
+
+## 3. Les avantages majeurs
+
+* Gratuité totale : Les offres gratuites de Vercel ou Netlify suffisent largement pour des projets personnels ou professionnels à trafic modéré.
+* Performance : Votre site est copié sur des serveurs partout dans le monde (CDN). Il charge instantanément.
+* Sécurité : Pas de serveur à maintenir, pas de base de données piratable, et le certificat SSL (HTTPS) est fourni et renouvelé automatiquement.
+
+Pour finaliser votre projet, souhaitez-vous :
+
+* Un tutoriel pas à pas pour configurer GitHub et Vercel ?
+* Des recommandations sur les meilleurs générateurs de site statique (Astro, Tailwind, etc.) ?
+* Savoir comment lier un nom de domaine personnalisé (.com, .fr, etc.) ?
+
+
